@@ -36,6 +36,7 @@ export class BarchartComponent implements OnInit, OnChanges {
   }
 
   createChart() {
+    
     let element = this.chartContainer.nativeElement;
     this.width = element.offsetWidth - this.margin.left - this.margin.right;
     this.height = element.offsetHeight - this.margin.top - this.margin.bottom;
